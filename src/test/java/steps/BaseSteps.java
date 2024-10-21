@@ -17,7 +17,7 @@ public class BaseSteps {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		 // Set timeout as necessary
+
 	}
 
 	@AfterTest
