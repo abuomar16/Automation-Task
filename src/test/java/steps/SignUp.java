@@ -51,7 +51,7 @@ public class SignUp  extends BaseSteps{
 
     @Then("I should see the message {string}")
     public void i_should_see_the_message(String expectedMessage) {
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Set timeout as necessary
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
         wait.until(ExpectedConditions.alertIsPresent());
         String actualMessage = driver.switchTo().alert().getText();
         assertEquals(actualMessage, expectedMessage);
