@@ -24,7 +24,7 @@ public class BaseSteps {
 	public void teardown() {
 		// Close the browser and end the session
 		if (driver != null) {
-			driver.quit(); // Quits all browser windows and ends the session
+			driver.quit(); 
 		}
 	}
 }
