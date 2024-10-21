@@ -182,12 +182,7 @@ public class Purchase extends BaseSteps  {
         assertTrue(successMessage.getText().contains("Thank you for your purchase"));
     }
     
-//    @After
-//    public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+
 
 
 }
